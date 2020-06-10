@@ -21,17 +21,17 @@
 
 echo "Setuid files:"
 echo "============="
-#find / -type f -executable -perm -4000 -ls 2>/dev/null | sort -k 3
+find / -type f -executable -perm -4000 -ls 2>/dev/null | sort -k 3
 echo ""
 
 # commands to display a second title
 echo "Setgid files:"
 echo "============="
 # find command modified as needed
-#find / -type f -executable -perm -2000 -ls 2>/dev/null |
+find / -type f -executable -perm -2000 -ls 2>/dev/null |
 # sort command to sort files appropriately
-#sort -k 3
-#echo ""
+sort -k 3
+echo ""
 
 # commands to display a third title
 echo "10 largest regular files in the system:"
