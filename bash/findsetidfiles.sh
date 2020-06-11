@@ -39,4 +39,4 @@ echo "======================================="
 # commands to make a list of the 10 biggest files
 find / -type f -exec ls -l --block-size=M {} + 2>/dev/null |
 # sort/ format whatever to display the list properly
-sort -nr | head -10 | awk '{print $9" "$3" "$5}'
+sort -nrk 5 | head -10 | awk '{print $9" "$3" "$5}'
