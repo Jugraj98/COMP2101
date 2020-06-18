@@ -11,6 +11,7 @@ Rolling...
 $(( RANDOM % 6 + 1)) rolled
 "
 # roling Jugraj Letters of times
+
 echo "First Name : Jugraj"
 echo "
 J Rolling...

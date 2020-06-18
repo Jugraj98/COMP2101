@@ -15,6 +15,7 @@
 #  display a summary of what was rolled, and what the results of your arithmetic were
 
 # Tell the user we have started processing
+
 # Task 1 Setting Values in variables
 # 6 faced dice
 range=6

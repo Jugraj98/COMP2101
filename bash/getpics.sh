@@ -30,6 +30,7 @@ test -f ~/Pictures/pics.tgz || wget -q -O ~/Pictures/pics.tgz http://zonzorp.net
 test -f ~/Pictures/pics.tgz && tar -C ~/Pictures -xvf ~/Pictures/pics.tgz && rm ~/Pictures/pics.tgz
 
 
+
 # Make a report on what we have in the Pictures directory
 test -d ~/Pictures && cat <<EOF
 Found $(find ~/Pictures -type f|wc -l) files in the Pictures directory.

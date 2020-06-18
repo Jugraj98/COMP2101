@@ -13,6 +13,7 @@ read -p "firstnum:" firstnum
 read -p "secondnum:" secondnum
 read -p "thirdnum:" thirdnum
 
+
 # sum and product values calculation 
 sum=$((thirdnum +firstnum + secondnum))
 pro=$((thirdnum * firstnum * secondnum))
